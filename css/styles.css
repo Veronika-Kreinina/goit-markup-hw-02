@@ -5,9 +5,12 @@ body {
   background-color: 
   #FFFFFF;
 }
+ul{
+  list-style-type: none ;
+}
 
-.logo-link{
-  font-family: "Raleway", sans-serif,;
+.header-logo-link{
+  font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-weight: 700;
 line-height: 1.17x;
@@ -17,8 +20,8 @@ text-transform: uppercase;
 color: #4D5AE5;
 }
 
-.logo-link-studio{
-  font-family: "Raleway", sans-serif,;
+.header-logo-span{
+  font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-weight: 700;
 line-height: 1.17x;
@@ -30,7 +33,7 @@ color: #2e2f42;
 /* .logo-link:hover{ color: #2E2F42;
 }*/
 
-.nav-list{
+.header-nav-list{
   display: inline;
   font-weight:500;
   font-size: 16px;
@@ -39,16 +42,16 @@ color: #2e2f42;
   letter-spacing: 0.02em;
 }
 
-.nav-list-item :focus,
+.header-nav-list-item :focus,
 .nav-list-item :active{
   color: #404bbf;
 }
 
-.contacts-adress{
+.header-adress{
   font-style: normal;
 }
 
-.address-item{
+.header-address-item{
   display: inline;
   font-weight:400;
   font-size: 16px;
@@ -57,11 +60,11 @@ color: #2e2f42;
   font-style: normal;
   letter-spacing: 0.02em;
 }
-.address-item:focus{
+.header-address-item:focus{
   color: #404bbf;
 }
 
-/* .address-list{ */
+/* .header-address-list{ */
   
 /* display: inline;
   font-weight:400;
@@ -116,7 +119,7 @@ a:hover{
 
 /* .quaity-list{} */
 
-.quaity{
+.quaity-item{
   background-color: #FFFFFF
 }
 
@@ -140,7 +143,7 @@ a:hover{
 }
 
 /* TEAM SECTION */
-.team-title{
+.team-section-title{
   font-weight:700;
   font-size: 36px;
   line-height: 40px;
@@ -195,7 +198,7 @@ text-align: center;
 
 
 }
-.portfolio-item{
+.portfolio-item-title{
 font-family: "Roboto", sans-serif;
 font-size: 20px;
 font-weight: 500;
