@@ -107,7 +107,8 @@ a:hover{
 }
 
 /* QUALITY SECTION */
-.visually-hidden {
+
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -119,7 +120,7 @@ a:hover{
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
 .quality-item{
   background-color: #FFFFFF
